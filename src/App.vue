@@ -9,7 +9,9 @@
 		
 		<!-- 中间的 路由 router-view 区域 -->
 		<transition mode='out-in'>
-			<RouterView></RouterView>
+			<keep-alive>
+				<RouterView></RouterView>
+			</keep-alive>
 		</transition>
 		
 		
